@@ -18,7 +18,7 @@ import {
   applyPromoCode,
 } from "../../redux/panierSlice";
 import { selectDiscountedTotal } from "../../redux/panierSlice";
-import { DeleteColumnOutlined, DeleteOutlined } from "@ant-design/icons";
+import { DeleteOutlined } from "@ant-design/icons";
 
 const { Text, Title } = Typography;
 

@@ -10,7 +10,6 @@ function AppRouter() {
     <Routes>
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/" element={<Template />} />
-
       <Route path="/login" element={<Login />} />
       <Route path="/register" element={<Register />} />
     </Routes>
