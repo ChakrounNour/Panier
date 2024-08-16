@@ -1,9 +1,23 @@
 .add-button {
-  margin-left: 10px; 
-  padding: 5px 10px; 
+  margin-left: 10px;
+  padding: 5px 10px;
 }
-
 
 .add-button:hover {
   background-color: #40a9ff;
+}
+@media (max-width: 600px) {
+  .produit-devise {
+    font-size: 0.8rem;
+  }
+
+  .add-button {
+    width: 100%;
+  }
+}
+
+@media (min-width: 601px) {
+  .produit-devise {
+    font-size: 1rem;
+  }
 }

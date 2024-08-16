@@ -1,11 +1,9 @@
-import Template from "./template/Template";
-
+import AppRouter from "./router/AppRouter";
 
 function App() {
   return (
     <div>
-      
-      <Template/>
+      <AppRouter />
     </div>
   );
 }
